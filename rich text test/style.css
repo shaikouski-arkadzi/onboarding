@@ -1,0 +1,66 @@
+body {
+    margin: 12px;
+    font-size: 17px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .topnav a.active {
+
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .add {
+    margin-bottom: 15px;
+    padding: 10px 16px;
+  }
+
+  select {
+    margin-bottom: 10px;
+  }
+
+  .editable {
+    width: 360px;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .editable .span-0{ /* Added to reset styles correctly */
+    font-weight: normal;   /* Reset b */
+    text-decoration: none; /* Reset u */
+    font-style: normal;    /* Reset i */
+  }
+  
+  .editable .span-b{
+    font-weight: bold;
+  }
+  
+  .editable .span-u{
+    text-decoration: underline;
+  }
+  
+  .editable .span-i{
+    font-style: italic;
+  }
+
+  .send {
+    margin-bottom: 10px;
+  }
