@@ -2,10 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <title>trumbowyg</title>
-    <link rel="stylesheet" href="trumbowyg/dist/ui/trumbowyg.min.css">
+    <link rel="stylesheet" href="dist/ui/trumbowyg.min.css">
 </head>
 <body>
-    <textarea class="js--trumbowyg">Words by deafult</textarea>
+    <div id="trumbowyg-demo"></div>
+    <!-- <textarea class="js--trumbowyg">Words by deafult</textarea> -->
     
     <!-- Import jQuery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,9 +15,7 @@
 <!-- Import Trumbowyg -->
 <script src="dist/trumbowyg.min.js"></script>
 <script>
-    $('textarea').trumbowyg({
-	semantic: true
-});
+    $('#trumbowyg-demo').trumbowyg();
 </script>
 </body>
 </html>
